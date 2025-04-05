@@ -1,0 +1,16 @@
+# The input file has data like the example below
+
+#NFA
+(0,lambda)=4
+(0,a)=1
+(0,a)=3
+(1,b)=1
+(1,b)=2
+(2,a)=0
+(3,a)=2
+
+final_state=[4]
+
+initial_state=0
+
+user_input_string="aaaabbbbba"

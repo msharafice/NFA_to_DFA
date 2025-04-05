@@ -1,0 +1,5 @@
+#DFA
+{'q0,q4': {'a': 'q1,q3', 'b': '∅'}, 'q1,q3': {'a': 'q2', 'b': 'q1,q2'}, 'q2': {'a': 'q0', 'b': '∅'}, 'q0': {'a': 'q1,q3', 'b': '∅'}, 'q1,q2': {'a': 'q0', 'b': 'q1,q2'}, '∅': {'b': '∅', 'a': '∅'}}
+initial_state=q0,q4
+final_state=[{'q0,q4'}]
+python >> "Input string is Rejected"
